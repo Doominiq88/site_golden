@@ -1,0 +1,369 @@
+/* 1024 */
+
+@media (max-width: 1024px) {
+    .nav-toogle {
+        display: block;
+        padding: 5px;
+        margin-left: 20px;
+        border: 1px solid;
+        border-radius: 2px;
+        color: #fed136;
+        background-color: transparent;
+        border-color: #fed136;
+        font-size: 18px;
+        font-style: italic;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+    .nav-close {
+        font-size: 20px;
+        font-weight: bold;
+        position: fixed;
+        border: 1px solid;
+        border-radius: 2px;
+        color: #fed136;
+        background-color: transparent;
+        border-color: #fed136;
+        left: 10px;
+        top: 10px;
+        z-index: 3;
+    }
+    .menu>ul {
+        display: none;
+        position: fixed;
+        padding: 30px;
+        width: 43%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: silver;
+        z-index: 2;
+    }
+    input#nav-toogle:checked~ul,
+    input#nav-toogle:checked~.nav-close {
+        display: block;
+    }
+    /* popup-2  */
+    .reklama2 {
+        top: 20%;
+        width: 50%;
+    }
+    .recall .btn {
+        margin-top: 10px;
+    }
+    /* sub-menu */
+    .menu a {
+        transition: 0.5s all;
+    }
+    .menu a:hover {
+        background-color: #666;
+        padding: 10px 0 10px 20px;
+    }
+    .menu__all li {
+        width: 150px;
+    }
+    .menu__list {
+        position: relative;
+    }
+    .menu__drop {
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+    /* portfolio  */
+    .img {
+        margin-bottom: 30px;
+    }
+    /* end portfolio  */
+    .form-col {
+        width: 40%;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .forms textarea {
+        width: 100%;
+    }
+    /* partners  */
+    .partners .container {
+        text-align: center;
+    }
+}
+
+
+/* 768 */
+
+@media (max-width: 768px) {
+    /* first block */
+    .home {
+        margin-top: 110px;
+    }
+    .home h2 {
+        font-size: 70px;
+    }
+    /* popup  */
+    .reklama2 {
+        top: 25%;
+        left: 34%;
+        width: 85%;
+    }
+    /* servises  */
+    .blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item {
+        margin: 16px;
+        width: 90%;
+    }
+    /* portfolio  */
+    .portfolio-list {
+        margin-top: 70px;
+    }
+    .portfolio {
+        padding-bottom: 30px;
+    }
+    .portfolio-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img {
+        margin-bottom: 20px;
+    }
+    /* .img .des1 {
+        padding-bottom: 20px;
+    } */
+    /* about    */
+    .about-item {
+        margin-bottom: 30px;
+    }
+    .left {
+        float: right;
+    }
+    .about-text {
+        width: 50%;
+    }
+    .text-right {
+        text-align: left;
+    }
+    .about-img {
+        width: 50%;
+    }
+    .about-img img {
+        width: 170px;
+        height: 170px;
+    }
+    .about-img:after {
+        display: none;
+    }
+    .form-col {
+        width: 40%;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .forms textarea {
+        width: 100%;
+    }
+    /* partners  */
+    .partners {
+        padding-bottom: 30px;
+    }
+    /* forms  */
+}
+
+
+/* 425 */
+
+@media (max-width: 426px) {
+    .home {
+        margin-top: 70px;
+    }
+    .home h2 {
+        font-size: 75px;
+    }
+    .btn {
+        margin-top: 40px;
+    }
+    /* popup  */
+    .reklama2 {
+        top: 20%;
+        left: 34%;
+        width: 85%;
+    }
+    /* servises */
+    .item {
+        margin: 16px;
+        width: 80%
+    }
+    .blocks {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .foto-team {
+        flex-wrap: wrap;
+    }
+    /* about */
+    .about {
+        margin-bottom: 90px;
+    }
+    .container h2 {
+        margin-top: 80px;
+    }
+    .about-item {
+        margin-bottom: 30px;
+    }
+    .left {
+        float: right;
+    }
+    .about-text {
+        width: 50%;
+    }
+    .text-right {
+        text-align: left;
+    }
+    .about-img {
+        width: 50%;
+    }
+    .about-img img {
+        width: 120px;
+        height: 120px;
+    }
+    .about-img:after {
+        display: none;
+    }
+    .about-img img,
+    .about-link {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border: 7px solid #f1f1f1;
+        border-radius: 50%;
+        /* background-origin: border-box; */
+    }
+    .about-yellow p {
+        font: bold 18px/30px Arial;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        padding-top: 9px;
+        padding-left: 14px;
+        position: absolute;
+    }
+    /* end-about    */
+    /* team  */
+    .team .team-quote {
+        padding-bottom: 90px;
+    }
+    /* end-team */
+    /* partners */
+    .partners {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .partners-item {
+        padding-top: 20px;
+        width: 113%;
+    }
+    /* end-partners */
+    /* forms  */
+    .form-col {
+        width: 40%;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .forms textarea {
+        width: 100%;
+    }
+    .forms {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .form-col {
+        width: 90%;
+    }
+    .btn {
+        margin-top: 12px;
+        width: 200px;
+        height: 45px;
+    }
+    /* copyright */
+    .copyright .social {
+        margin-left: 60px;
+        display: flex;
+        margin-left: 30px;
+    }
+}
+
+
+/* 375 */
+
+@media (max-width: 375px) {
+    .foto-team {
+        flex-wrap: wrap;
+    }
+    /* about    */
+    /* end about    */
+    .form-col {
+        width: 90%;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .forms textarea {
+        width: 100%;
+    }
+    /* copyright */
+    .copyright .social {
+        margin-left: 60px;
+        display: flex;
+        margin-left: 30px;
+    }
+    .reklama2 {
+        top: 15%;
+        left: 34%;
+        width: 85%;
+    }
+}
+
+
+/* 350 */
+
+@media (max-width: 350px) {
+    /* banner  */
+    .home h2 {
+        font-size: 68px;
+    }
+    .logo-top {
+        display: none;
+    }
+    /* about    */
+    /* end about    */
+    /* contacts */
+    .forms textarea {
+        width: 100%;
+    }
+    .forms {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .form-input {
+        width: 100%;
+    }
+    .form-col {
+        width: 90%;
+    }
+    .forms textarea {
+        width: 100%;
+    }
+    /* end contacts */
+    .copyright .social {
+        margin-left: 10px
+    }
+}
